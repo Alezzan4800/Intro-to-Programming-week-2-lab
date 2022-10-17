@@ -10,7 +10,7 @@ mile=int(input("Please enter your how many mile: "))
 centimeters_per_inch=float(inch*2.54)
 centimeters_per_foot=float(foot*30.48)
 meters_per_yard=float(yard*.914)
-kilometers_per_mile=(mile*1.61)
+kilometers_per_mile=float((mile*1.61))
 
 #printing the now values as metric
 
