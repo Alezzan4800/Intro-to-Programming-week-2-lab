@@ -5,7 +5,11 @@ foot=int(input("Please enter your how many feet: "))
 yard=int(input("Please enter your how many yards: "))
 mile=int(input("Please enter your how many mile: "))
 
-#converting from english to metric
+
+
+print("---------------------")
+
+#converting from imperial to metric
 
 centimeters_per_inch=float(inch*2.54)
 centimeters_per_foot=float(foot*30.48)
